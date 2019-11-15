@@ -1,0 +1,44 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{adjustbox}
+\usepackage{subcaption}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{multirow}
+\usepackage[top=10mm,includehead,headheight=45pt,
+             left=1.5cm,bottom=2cm,right=1.5cm,headsep=1cm]{geometry} 
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\textsf{School Name \\ Department Name}}
+\lhead{Ran Cheng: Statement of Purpose}
+\cfoot{Page \thepage}
+\renewcommand{\familydefault}{\rmdefault}
+\usepackage{titlesec}
+
+\setcounter{secnumdepth}{4}
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+
+
+\begin{document}
+
+This is your statement of Purpose
+
+
+\medskip
+
+%Sets the bibliography style to UNSRT and imports the 
+%bibliography file "samples.bib".
+\bibliographystyle{unsrt}
+\bibliography{citations}
+
+\end{document}
